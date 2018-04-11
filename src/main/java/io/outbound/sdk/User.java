@@ -256,7 +256,7 @@ public class User {
         }
 
         public Builder setGroupAttributes(Map<String, Object> groupAttributes) {
-            this.groupAttributes = this.groupAttributes;
+            this.groupAttributes = groupAttributes;
             return this;
         }
 
